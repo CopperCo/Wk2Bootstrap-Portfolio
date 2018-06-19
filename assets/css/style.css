@@ -1,0 +1,194 @@
+/* MY COLOURS
+#EB7E65 -- Coral
+#F9BD95 -- Peach
+#F8DCB7 -- Pale Yellow
+#A5B996 -- Olive
+#A9BBB8 -- Grey Blue 
+#D4E3DE -- Pale Grey Blue */
+
+/* TYPOGRAPHY */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* SIZING */
+
+.wrapper {
+  margin: 0 auto;
+}
+
+/* NAV */
+nav {
+  background-color: #fcdfcc;
+}
+
+nav a {
+  color: #eb7e65;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+/* HEADER */
+.bgimage {
+  width: 100%;
+  height: 500px;
+  background: url('../images/Hayley-Buns.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bgimage h1 {
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  font-size: 50px;
+  margin-top: 175px;
+}
+
+.bgimage h3 {
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  font-size: 35px;
+}
+
+.btn-first {
+  background-color: #eb7e65;
+  color: white;
+}
+
+.btn-second {
+  border: white solid 2px;
+  background-color: rgba(255, 255, 255, 0.459);
+  color: #eb7e65;
+}
+
+/* ABOUT HAYLEY */
+.justify-content-md-start {
+  justify-content: left;
+}
+
+.aboutHayley {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #f9bd95;
+  text-align: center;
+}
+
+.aboutHayley h1 {
+  text-decoration: #333;
+}
+
+.aboutHayleyImg {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 3px 3px 5px rgb(136, 136, 136);
+}
+
+/* \FEATURES */
+
+.features {
+  /* position: absolute; */
+  background-color: #eeeeee;
+  box-shadow: 3px 5px 15px rgb(97, 97, 97);
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 105px;
+  padding-bottom: 105px;
+  border-radius: 15px;
+  margin-top: -55px;
+  margin-bottom: 5%;
+}
+
+.feature-card {
+  padding: 0 10px;
+}
+
+.feature-card img {
+  widows: 200px;
+}
+
+.features h2 {
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+}
+
+.features h5 {
+  font-weight: 500;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  margin: 30px 0px;
+}
+
+.portfolio,
+h1,
+p {
+  text-align: center;
+}
+
+.card {
+  margin-top: 25px;
+  width: auto;
+  box-shadow: 3px 5px 15px rgb(97, 97, 97);
+}
+
+/* FORM */
+
+.contactForm {
+  margin: 35px auto;
+}
+
+label {
+  padding-top: 10px;
+}
+
+#message {
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.submit {
+  background-color: #eb7e65;
+  border: #eb7e65 1px solid;
+  box-shadow: 3px 3px 5px #ccc;
+}
+
+.submit:hover {
+  background-color: #f9bd95;
+  border: #f9bd95 1px solid;
+}
+
+/* FOOTER */
+#footerSC col-sm col-xs {
+  display: inline;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  color: #eb7e65;
+}
+
+.socialFooter {
+  height: 35px;
+}
+
+.socialFooter:hover {
+  background-color: #eb7e65;
+  padding: 5px;
+  border-radius: 50%;
+}
